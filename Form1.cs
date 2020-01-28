@@ -18,11 +18,9 @@ namespace TwitchAdmin
     public partial class Form1 : Form
     {
         // Bot settings
-        private static string _botName = "fiercedeityninja";
-        private static string _broadcasterName = "itsmehamham";
-        //private static string _twitchOAuth = "oauth:50bpq88z8hpv4spvhykn0j3i5gbo5w"; // fiercedeityninja
-        //private static string _twitchOAuth = "oauth:b8q75mlelgf3lqu47ptp7saw5totzx"; //fiercedeitybot
-        private static string _twitchOAuth = "oauth:1upqxdzd3wwhy2ev0h6vuytdprrdk7"; //0x420b
+        private static string _botName = "";
+        private static string _broadcasterName = "";
+        private static string _twitchOAuth = 
         IrcClient irc = new IrcClient("irc.chat.twitch.tv", 6667,
                 _botName, _twitchOAuth, _broadcasterName);
 
